@@ -1,5 +1,5 @@
 
-byte SpMaxL=92;
+byte SpMaxL=86;
 byte SpMaxR=86;
 #define inA1 6
 #define inA2 7
@@ -49,7 +49,7 @@ void doLine()
       Tien(SpMaxL,SpMaxR);
       break;
     case 0:
-      Tien(SpMaxL,5);         // cho quay ph đến khi bắt được line
+      Tien(5, SpMaxR - 15);         // cho quay trái đến khi bắt được line
       break;
     case 1:
       Tien(SpMaxL-10,10);
